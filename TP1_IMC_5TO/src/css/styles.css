@@ -1,0 +1,87 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif; /* Cambia a una fuente más moderna */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #f06ef6, #6e7cf6); /* Fondo degradado */
+    color: #333;
+}
+
+/* Contenedor principal */
+.center {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); /* Fondo blanco con más transparencia */
+    padding: 40px;
+    border-radius: 20px; /* Bordes más redondeados */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Sombras más pronunciadas */
+    max-width: 450px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    color: #6e7cf6; /* Cambiar a un color complementario del fondo */
+    font-size: 26px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Agregar efecto de sombra */
+}
+
+/* Estilo de los campos de entrada */
+input[type="number"] {
+    width: 100%;
+    padding: 15px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: all 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #6e7cf6;
+    box-shadow: 0 0 8px rgba(110, 124, 246, 0.5); /* Efecto de foco */
+    outline: none;
+}
+
+/* Botón */
+button {
+    width: 100%;
+    padding: 15px;
+    background: linear-gradient(135deg, #6e7cf6, #f06ef6); /* Botón con gradiente */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #f06ef6, #6e7cf6); /* Gradiente invertido al pasar */
+    transform: translateY(-3px); /* Efecto de levantar */
+}
+
+/* Texto descriptivo */
+p {
+    font-size: 16px;
+    color: #444;
+    margin: 20px 0;
+    line-height: 1.6;
+}
+
+/* Resultado */
+h2 {
+    font-size: 30px;
+    color: #28a745; /* Verde vibrante para el resultado */
+    margin-top: 20px;
+    font-weight: bold;
+    text-shadow: 1px 1px 10px rgba(40, 167, 69, 0.3); /* Resaltar el resultado */
+}
