@@ -1,0 +1,105 @@
+/* Estilo general */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.container:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #ff7e5f;
+    margin-bottom: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Grupo de entrada */
+.input-group, .output-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    font-size: 13px;
+    color: #555;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+/* Entrada de texto */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 2px solid #ff7e5f;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+    background: #fefefe;
+}
+
+input:focus {
+    border-color: #feb47b;
+    box-shadow: 0 0 10px rgba(255, 126, 95, 0.5);
+    outline: none;
+}
+
+/* Botón */
+button {
+    background: linear-gradient(to right, #feb47b, #ff7e5f);
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    transform: scale(1.03);
+}
+
+/* Resultado */
+.output-group p {
+    font-size: 16px;
+    color: #444;
+    margin: 0;
+    line-height: 1.5;
+}
+
+#result {
+    font-weight: bold;
+    color: #ff7e5f;
+    font-size: 18px;
+    margin-top: 10px;
+}
